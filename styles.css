@@ -1,1 +1,46 @@
+body {
 
+    background-color: #5d5d5d; 
+    color: #222222;
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center; /*todo centradito*/
+    height: 100vh; 
+    margin: 0;
+    
+}
+
+.contenedor-central {
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+.foto-perfil {
+
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; /*pa que no se deforme*/
+    border-radius: 50%;
+    border: 5px solid white; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+h1 {
+
+    font-size: 2.5rem; 
+    margin: 0 0 10px 0; 
+
+}
+
+p {
+
+    font-size: 1.2rem;
+    color: #9c9c9c;
+    margin: 0;
+
+}
